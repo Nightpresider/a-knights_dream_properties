@@ -1,0 +1,23 @@
+// now lets add some more properites, these are for idetified items, CRAFT MATERIAL
+let metal = ['baatorium', 'bronze', 'byeshk', 'cinnabryl', 'copper', 'darkSteel',
+    'etherium', 'gold', 'iron', 'orichalcum', 'quickSilver', 'stailinn', 'steel', 'thinaun',
+    'lead'];
+let wood = ['ash', 'birch', 'bludbud', 'bluleaf', 'broon', 'elder', 'hazel', 'holly',
+    'ivren', 'juniper', 'oak', 'pine', 'willow', 'yew'];
+let stone = ['aethel', 'ceramic', 'coldIron', 'corundum', 'crystal', 'elysian', 'moonStone', 'trueIce'];
+let glass = ['amber'];
+let leather = ['abyssusSkin', 'deather', 'feyken', 'heavyFur', 'shortFur', 'olyther', 'peltHard',
+    'peltRigid', 'peltSoft', 'pigskin'];
+let bone = ['osso', 'boneMold', 'chitin', 'ivory', 'ohmu', 'scale'];
+let cloth = ['hemp', 'linen', 'silk', 'wool']; // = [item]
+let craftMaterial = [metal, wood, stone, glass, leather, bone, cloth]; // = [subCM]
+let listCM = [];
+let property_names = ['equipment', 'weapon', 'consumable', 'loot', 'container', 'tool']
+
+
+for (const cat of craftMaterial) {
+    for (const subcat of cat) {
+        listCM.add
+    }
+}
+console.log(listCM);

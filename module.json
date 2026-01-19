@@ -1,0 +1,19 @@
+{
+    "id": "a-knights-dream-properties",
+    "title": "A Knights Dream Properties",
+    "description": "Adds Dropdown Menus to Weapon/Equipment/Loot sheets for 'Craft Source','Cursed','Blessed','Craft Material'",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "esmodules": [
+        "weaponPropMJS.mjs",
+        "armorPropMJS.mjs",
+        "additionalEnrichers.mjs",
+        "languageCorrection.mjs",
+        "actorprop.mjs"
+    ],
+    "styles": [
+        "itemPropStyles.css"
+    ]
+}
